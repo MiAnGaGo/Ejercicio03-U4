@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MiAnGaGo/Ejercicio03-U4/issues"
   },
-  "homepage": "https://github.com/MiAnGaGo/Ejercicio03-U4#readme"
+  "homepage": "https://github.com/MiAnGaGo/Ejercicio03-U4#readme",
+  "dependencies": {
+    "mongoose": "^5.6.4"
+  }
 }
