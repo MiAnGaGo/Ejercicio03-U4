@@ -31,7 +31,7 @@ const urlBase = "/api/v1/";
 const jwtOptions = {
     path: [
         // /^\/api\/v1\/usuarios\/login\/.*/
-      //  /^\/api\/v1\/productos\//
+       /^\/api\/v1\/productos\//
     ]
 };
 
@@ -51,7 +51,7 @@ app.use(function (err, req, res, next) {
 
 const product = require('./routers/product.router')(wagner);
 
-app.use(urlBase + 'products', product);
+app.use(urlBase + 'productos', product);
 
 
 module.exports = app;
